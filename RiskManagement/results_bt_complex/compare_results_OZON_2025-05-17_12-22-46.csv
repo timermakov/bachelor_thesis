@@ -1,0 +1,21 @@
+Ticker,Stop_Loss_Method,Take_Profit_Method,Final_Balance,Trades,Win_Rate (%)
+OZON,daily_minmax,prev_bar_5_percent,1144887.0,65,46.88
+OZON,daily_minmax,weekly_minmax,1165868.0,81,62.5
+OZON,daily_minmax,monthly_minmax,1186613.5,77,60.53
+OZON,daily_minmax,ma_distance,1249973.5,57,57.14
+OZON,volatility_stop,prev_bar_5_percent,1126802.0,63,48.39
+OZON,volatility_stop,weekly_minmax,1171147.5,79,66.67
+OZON,volatility_stop,monthly_minmax,1192518.5,75,64.86
+OZON,volatility_stop,ma_distance,1230205.0,55,59.26
+OZON,weekly_minmax,prev_bar_5_percent,1112095.5,63,48.39
+OZON,weekly_minmax,weekly_minmax,1172368.5,79,66.67
+OZON,weekly_minmax,monthly_minmax,1193366.5,75,64.86
+OZON,weekly_minmax,ma_distance,1231099.0,55,59.26
+OZON,monthly_minmax,prev_bar_5_percent,1110640.5,63,48.39
+OZON,monthly_minmax,weekly_minmax,1171147.5,79,66.67
+OZON,monthly_minmax,monthly_minmax,1192518.5,75,64.86
+OZON,monthly_minmax,ma_distance,1230205.0,55,59.26
+OZON,MA_50_18,prev_bar_5_percent,1132871.0,67,45.45
+OZON,MA_50_18,weekly_minmax,1189936.0,81,62.5
+OZON,MA_50_18,monthly_minmax,1176600.5,81,60.0
+OZON,MA_50_18,ma_distance,1232726.0,59,51.72

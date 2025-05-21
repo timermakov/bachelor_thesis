@@ -1,0 +1,25 @@
+{
+  "TICKERS": [
+    {
+      "TICKER": "SBER",
+      "EXCHANGE": "MOEX",
+      "START_DATE": "2024-05-21",
+      "END_DATE": "2025-05-21",
+      "INTERVAL": "1d",
+      "CAPITAL": 1000000,
+      "RISK_PERCENT": 0.02,
+      "PROFIT_TO_RISK": 3,
+      "ATR_MULTIPLIER": 1.5,
+      "ATR_WINDOW": 14,
+      "STOP_LOSS_METHOD": "MA_50_18",
+      "TAKE_PROFIT_METHOD": "weekly_minmax",
+      "POSITION": "long"
+    }
+  ],
+  "STOP_LOSS_METHODS": [
+    "MA_50_18"
+  ],
+  "TAKE_PROFIT_METHODS": [
+    "weekly_minmax"
+  ]
+}

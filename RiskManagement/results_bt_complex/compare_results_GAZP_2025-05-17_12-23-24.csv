@@ -1,0 +1,21 @@
+Ticker,Stop_Loss_Method,Take_Profit_Method,Final_Balance,Trades,Win_Rate (%)
+GAZP,daily_minmax,prev_bar_5_percent,948980.4,41,35.0
+GAZP,daily_minmax,weekly_minmax,996680.5799999996,50,56.0
+GAZP,daily_minmax,monthly_minmax,988294.1200000002,50,52.0
+GAZP,daily_minmax,ma_distance,956337.7399999998,43,42.86
+GAZP,volatility_stop,prev_bar_5_percent,934348.1300000002,41,35.0
+GAZP,volatility_stop,weekly_minmax,967167.2200000001,50,56.0
+GAZP,volatility_stop,monthly_minmax,959018.7200000003,50,52.0
+GAZP,volatility_stop,ma_distance,943060.7,41,45.0
+GAZP,weekly_minmax,prev_bar_5_percent,944143.2100000003,41,35.0
+GAZP,weekly_minmax,weekly_minmax,996994.1400000004,48,58.33
+GAZP,weekly_minmax,monthly_minmax,988591.7000000004,48,54.17
+GAZP,weekly_minmax,ma_distance,944811.8799999997,41,45.0
+GAZP,monthly_minmax,prev_bar_5_percent,933087.4800000004,41,35.0
+GAZP,monthly_minmax,weekly_minmax,985343.1200000001,48,58.33
+GAZP,monthly_minmax,monthly_minmax,977035.1000000002,48,54.17
+GAZP,monthly_minmax,ma_distance,941796.5299999998,41,45.0
+GAZP,MA_50_18,prev_bar_5_percent,987097.9400000004,41,35.0
+GAZP,MA_50_18,weekly_minmax,1042333.9800000006,48,58.33
+GAZP,MA_50_18,monthly_minmax,1033538.9300000005,48,54.17
+GAZP,MA_50_18,ma_distance,987794.3699999999,41,45.0

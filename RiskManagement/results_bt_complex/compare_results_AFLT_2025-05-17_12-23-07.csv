@@ -1,0 +1,21 @@
+Ticker,Stop_Loss_Method,Take_Profit_Method,Final_Balance,Trades,Win_Rate (%)
+AFLT,daily_minmax,prev_bar_5_percent,1082825.3899999997,71,40.0
+AFLT,daily_minmax,weekly_minmax,1110482.1600000001,81,57.5
+AFLT,daily_minmax,monthly_minmax,1163048.47,75,54.05
+AFLT,daily_minmax,ma_distance,1138402.9599999997,67,42.42
+AFLT,volatility_stop,prev_bar_5_percent,1090826.0999999999,67,42.42
+AFLT,volatility_stop,weekly_minmax,1151652.4299999995,76,63.16
+AFLT,volatility_stop,monthly_minmax,1174972.13,69,58.82
+AFLT,volatility_stop,ma_distance,1164031.92,59,48.28
+AFLT,weekly_minmax,prev_bar_5_percent,1101384.0000000002,67,42.42
+AFLT,weekly_minmax,weekly_minmax,1162798.99,76,63.16
+AFLT,weekly_minmax,monthly_minmax,1186353.0399999998,69,58.82
+AFLT,weekly_minmax,ma_distance,1175305.4100000001,59,48.28
+AFLT,monthly_minmax,prev_bar_5_percent,1090826.0999999999,67,42.42
+AFLT,monthly_minmax,weekly_minmax,1151652.4299999995,76,63.16
+AFLT,monthly_minmax,monthly_minmax,1174972.13,69,58.82
+AFLT,monthly_minmax,ma_distance,1164031.92,59,48.28
+AFLT,MA_50_18,prev_bar_5_percent,1064084.1499999997,71,40.0
+AFLT,MA_50_18,weekly_minmax,1091263.5899999996,81,57.5
+AFLT,MA_50_18,monthly_minmax,1146172.5799999996,73,55.56
+AFLT,MA_50_18,ma_distance,1121891.5399999998,65,43.75

@@ -1,0 +1,21 @@
+Ticker,Stop_Loss_Method,Take_Profit_Method,Final_Balance,Trades,Win_Rate (%)
+NLMK,daily_minmax,prev_bar_5_percent,1106338.0599999998,51,56.0
+NLMK,daily_minmax,weekly_minmax,1177299.34,78,74.36
+NLMK,daily_minmax,monthly_minmax,1178056.9000000004,68,70.59
+NLMK,daily_minmax,ma_distance,1174825.7800000003,41,55.0
+NLMK,volatility_stop,prev_bar_5_percent,1104949.0799999998,51,56.0
+NLMK,volatility_stop,weekly_minmax,1062730.1599999997,74,75.68
+NLMK,volatility_stop,monthly_minmax,1084207.2,64,71.88
+NLMK,volatility_stop,ma_distance,1173346.5200000003,41,55.0
+NLMK,weekly_minmax,prev_bar_5_percent,1104949.0799999998,51,56.0
+NLMK,weekly_minmax,weekly_minmax,1062730.1599999997,74,75.68
+NLMK,weekly_minmax,monthly_minmax,1084207.2,64,71.88
+NLMK,weekly_minmax,ma_distance,1173346.5200000003,41,55.0
+NLMK,monthly_minmax,prev_bar_5_percent,1104949.0799999998,51,56.0
+NLMK,monthly_minmax,weekly_minmax,1062730.1599999997,74,75.68
+NLMK,monthly_minmax,monthly_minmax,1084207.2,64,71.88
+NLMK,monthly_minmax,ma_distance,1173346.5200000003,41,55.0
+NLMK,MA_50_18,prev_bar_5_percent,1083807.52,59,48.28
+NLMK,MA_50_18,weekly_minmax,1058751.9800000004,78,66.67
+NLMK,MA_50_18,monthly_minmax,1064982.0200000005,72,63.89
+NLMK,MA_50_18,ma_distance,1151577.2200000002,49,45.83

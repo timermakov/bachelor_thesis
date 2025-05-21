@@ -1,0 +1,81 @@
+{
+	"TICKERS": [
+		{
+			"TICKER": "OZON",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"END_DATE": "2024-12-31",
+			"INTERVAL": "1d",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "AFLT",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"END_DATE": "2024-12-31",
+			"INTERVAL": "1d",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "GAZP",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"END_DATE": "2024-12-31",
+			"INTERVAL": "1d",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "SBER",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"END_DATE": "2024-12-31",
+			"INTERVAL": "1d",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "NLMK",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"END_DATE": "2024-12-31",
+			"INTERVAL": "1d",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		}
+	],
+	"RUN_ALL_VARIANTS": true,
+	"STOP_LOSS_METHODS": [
+		"daily_minmax",
+		"volatility_stop",
+		"weekly_minmax",
+		"monthly_minmax",
+		"MA_50_18"
+	],
+	"TAKE_PROFIT_METHODS": [
+		"prev_bar_5_percent",
+		"weekly_minmax",
+		"monthly_minmax",
+		"ma_distance"
+	],
+	"RUN_ONE_VARIANT": false,
+	"STOP_LOSS_METHOD": "weekly_minmax",
+	"TAKE_PROFIT_METHOD": "weekly_minmax"
+}

@@ -1,0 +1,21 @@
+Ticker,Stop_Loss_Method,Take_Profit_Method,Final_Balance,Trades,Win_Rate (%)
+SBER,daily_minmax,prev_bar_5_percent,1186736.7500000005,50,48.0
+SBER,daily_minmax,weekly_minmax,1059950.9299999992,85,59.52
+SBER,daily_minmax,monthly_minmax,1156247.4599999995,67,60.61
+SBER,daily_minmax,ma_distance,1140694.8099999994,55,37.04
+SBER,volatility_stop,prev_bar_5_percent,1195212.4,46,52.17
+SBER,volatility_stop,weekly_minmax,1107185.25,69,64.71
+SBER,volatility_stop,monthly_minmax,1157577.09,61,63.33
+SBER,volatility_stop,ma_distance,1179334.9499999995,45,45.45
+SBER,weekly_minmax,prev_bar_5_percent,1189388.74,48,50.0
+SBER,weekly_minmax,weekly_minmax,1079351.3299999996,75,67.57
+SBER,weekly_minmax,monthly_minmax,1163804.2,61,66.67
+SBER,weekly_minmax,ma_distance,1154468.4599999997,51,40.0
+SBER,monthly_minmax,prev_bar_5_percent,1195212.4,46,52.17
+SBER,monthly_minmax,weekly_minmax,1126824.4599999995,65,71.88
+SBER,monthly_minmax,monthly_minmax,1193083.0499999996,57,71.43
+SBER,monthly_minmax,ma_distance,1179334.9499999995,45,45.45
+SBER,MA_50_18,prev_bar_5_percent,1215581.25,48,50.0
+SBER,MA_50_18,weekly_minmax,1121653.1299999997,73,66.67
+SBER,MA_50_18,monthly_minmax,1198554.41,61,66.67
+SBER,MA_50_18,ma_distance,1199417.8099999996,47,43.48

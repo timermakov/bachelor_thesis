@@ -1,0 +1,10 @@
+backtrader==1.9.78.123
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.3
+seaborn==0.12.2
+ta==0.10.2
+TA-lib==0.6.3
+tinkoff-investments==0.2.0b111
+pytz>=2023.3
+pytest==8.3.5
