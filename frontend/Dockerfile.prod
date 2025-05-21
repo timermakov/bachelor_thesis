@@ -1,0 +1,15 @@
+# этап сборки (build stage)
+FROM node:lts-alpine as build-stage
+
+WORKDIR /home/app/frontend
+COPY package*.json ./
+RUN npm install
+RUN npm install -g vite
+COPY . .
+RUN vite build
+
+## этап production (production-stage)
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /home/app/frontend/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

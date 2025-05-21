@@ -1,0 +1,51 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:12.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=tradinghelper_prod
+      - POSTGRES_USER=tradinghelper
+      - POSTGRES_PASSWORD=tradinghelper
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U tradinghelper" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  django:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    command: gunicorn core.wsgi:application --bind 0.0.0.0:8000
+    expose:
+      - 8000
+    volumes:
+      - static_volume:/home/app/backend/staticfiles
+    env_file:
+      - ./backend/.env.prod
+      - ./backend/.env.prod.local
+    depends_on:
+      db:
+        condition: service_healthy
+
+  nginx:
+    image: nginx:stable-alpine
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+    - static_volume:/home/app/backend/staticfiles
+    ports:
+      - 80:80
+    depends_on:
+      - django
+      - db
+
+
+volumes:
+  postgres_data:
+  static_volume:
+  vue_dist:

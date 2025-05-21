@@ -1,0 +1,74 @@
+{
+	"TICKERS": [
+		{
+			"TICKER": "OZON",
+			"FIGI": "BBG00Y91R9T3",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"CAPITAL": 100000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "AFLT",
+			"FIGI": "BBG004S683W7",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "GAZP",
+			"FIGI": "BBG004730RP0",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "SBER",
+			"FIGI": "BBG004730N88",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		},
+		{
+			"TICKER": "NLMK",
+			"FIGI": "BBG004S681W1",
+			"EXCHANGE": "MOEX",
+			"START_DATE": "2023-01-01",
+			"CAPITAL": 1000000,
+			"RISK_PERCENT": 0.02,
+			"PROFIT_TO_RISK": 3,
+			"ATR_MULTIPLIER": 1.5,
+			"ATR_WINDOW": 14
+		}
+	],
+	"STOP_LOSS_METHODS": [
+		"daily_minmax",
+		"volatility_stop",
+		"weekly_minmax",
+		"monthly_minmax",
+		"quarterly_minmax",
+		"MA_50_18"
+	],
+	"TAKE_PROFIT_METHODS": [
+		"ma_distance",
+		"weekly_minmax",
+		"monthly_minmax",
+		"quarterly_minmax",
+		"prev_bar_5_percent"
+	]
+}

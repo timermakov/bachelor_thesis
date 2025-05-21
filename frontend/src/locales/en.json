@@ -1,0 +1,112 @@
+{
+	"global": {
+		"appName": "Investments Assistant"
+	},
+	"common": {
+		"logout": "Log Out",
+		"login": "Log In",
+		"signup": "Sign Up",
+		"settings": "Settings",
+		"apply": "Apply",
+		"cancel": "Cancel",
+		"save": "Save",
+		"loading": "Loading...",
+		"error": "An error occurred",
+		"success": "Success",
+		"welcome": "Welcome",
+		"date": "Date:",
+		"run": "Run",
+		"connected": "Connected",
+		"disconnected": "Disconnected"
+	},
+	"navigation": {
+		"dashboard": "Dashboard",
+		"portfolio": "Portfolio",
+		"analysis": "Analysis",
+		"strategies": "Strategies"
+	},
+	"settings": {
+		"title": "Settings",
+		"language": "Language",
+		"sandbox": "Sandbox Mode",
+		"theme": "Theme"
+	},
+	"auth": {
+		"username": "Username",
+		"password": "Password",
+		"rememberMe": "Remember me",
+		"forgotPassword": "Forgot password?",
+		"loginError": "Invalid username or password",
+		"welcomeMessage": "Your welcome, {username}!",
+		"networkError": "Network error or server is not responding"
+	},
+	"dashboard": {
+		"addPosition": "Add position"
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"balance": "Balance",
+		"assets": "Assets",
+		"history": "Transaction History",
+		"moneyAmount": "Money amount",
+		"addMoney": "Add money",
+		"currentBalance": "Current Balance:",
+		"loadingBalance": "Loading balance..."
+	},
+	"analysis": {
+		"title": "Analysis",
+		"technicalAnalysis": "Technical Analysis",
+		"ticker": "Ticker",
+		"selectTicker": "Select ticker",
+		"dateRange": "Date Range",
+		"indicators": "Indicators",
+		"trendIndicators": "Trend Indicators",
+		"oscillators": "Oscillators",
+		"volumeIndicators": "Volume Indicators",
+		"periods": "Periods",
+		"standardDeviations": "Standard Deviations",
+		"upperBound": "Upper Bound",
+		"lowerBound": "Lower Bound",
+		"fastPeriod": "Fast Period",
+		"slowPeriod": "Slow Period",
+		"signalPeriod": "Signal Period",
+		"timeframe": "Timeframe:",
+		"startDate": "Start Date:",
+		"endDate": "End Date:",
+		"kPeriod": "%K Period",
+		"dPeriod": "%D Period",
+		"period": "Period",
+		"lastUpdate": "Last update",
+		"rsiIndicator": "Relative Strength Index (RSI)",
+		"macdIndicator": "Moving Average Convergence Divergence (MACD)",
+		"stochasticOscillator": "Stochastic Oscillator",
+		"williamsRIndicator": "Williams %R",
+		"obvIndicator": "On-Balance Volume (OBV)",
+		"vwapIndicator": "Volume Weighted Average Price (VWAP)",
+		"obv": "OBV",
+		"vwap": "VWAP",
+		"selectTickerAndDateRange": "Select a ticker and date range to view chart data."
+	},
+	"broker": {
+		"timeMoscow": "Time (Moscow):",
+		"connection": "T-Bank:",
+		"connect": "Connect",
+		"disconnect": "Disconnect"
+	},
+	"strategies": {
+		"backtest": "Strategies Backtest with Risk Management",
+		"ticker": "Ticker",
+		"startDate": "Start Date",
+		"stopLossMethod": "Stop Loss Method",
+		"takeProfitMethod": "Take Profit Method",
+		"endDate": "End Date",
+		"capital": "Capital",
+		"riskPercent": "Risk %",
+		"runBacktest": "Run Backtest",
+		"backtestResults": "Backtest Results",
+		"performanceSummary": "Performance Summary",
+		"balanceHistory": "Balance History",
+		"tradesHistory": "Trades History",
+		"runningBacktest": "Running backtest..."
+	}
+}

@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+DO NOT MAKE stubs, mockup data filling or special handling if not asked directly

@@ -1,0 +1,112 @@
+{
+	"global": {
+		"appName": "Инвестиционный Помощник"
+	},
+	"common": {
+		"logout": "Выйти",
+		"login": "Войти",
+		"signup": "Регистрация",
+		"settings": "Настройки",
+		"apply": "Применить",
+		"cancel": "Отмена",
+		"save": "Сохранить",
+		"loading": "Загрузка...",
+		"error": "Произошла ошибка",
+		"success": "Успешно",
+		"welcome": "Добро пожаловать",
+		"date": "Дата:",
+		"run": "Запустить",
+		"connected": "Подключено",
+		"disconnected": "Отключено"
+	},
+	"navigation": {
+		"dashboard": "Главная",
+		"portfolio": "Управление счётом",
+		"analysis": "Анализ фондового рынка",
+		"strategies": "Стратегии"
+	},
+	"settings": {
+		"title": "Настройки",
+		"language": "Язык",
+		"sandbox": "Режим песочницы",
+		"theme": "Тема"
+	},
+	"auth": {
+		"username": "Имя пользователя",
+		"password": "Пароль",
+		"rememberMe": "Запомнить меня",
+		"forgotPassword": "Забыли пароль?",
+		"loginError": "Неверное имя пользователя или пароль",
+		"welcomeMessage": "Добро пожаловать, {username}!",
+		"networkError": "Ошибка сети или сервер не отвечает"
+	},
+	"dashboard": {
+		"addPosition": "Добавить позицию"
+	},
+	"portfolio": {
+		"title": "Торговый счёт",
+		"balance": "Баланс",
+		"assets": "Активы",
+		"history": "История транзакций",
+		"moneyAmount": "Сумма",
+		"addMoney": "Добавить деньги",
+		"currentBalance": "Текущий баланс:",
+		"loadingBalance": "Загрузка баланса..."
+	},
+	"analysis": {
+		"title": "Анализ фондового рынка",
+		"technicalAnalysis": "Технический анализ",
+		"ticker": "Тикер",
+		"selectTicker": "Выберите акцию:",
+		"dateRange": "Диапазон дат",
+		"indicators": "Индикаторы",
+		"trendIndicators": "Трендовые индикаторы",
+		"oscillators": "Осцилляторы",
+		"volumeIndicators": "Индикаторы объёма",
+		"periods": "Периоды",
+		"standardDeviations": "Стандартные отклонения",
+		"upperBound": "Верхняя граница",
+		"lowerBound": "Нижняя граница",
+		"fastPeriod": "Fast period EMA",
+		"slowPeriod": "Slow period EMA",
+		"signalPeriod": "Signal period EMA",
+		"timeframe": "Таймфрейм:",
+		"startDate": "Начальная дата:",
+		"endDate": "Конечная дата:",
+		"kPeriod": "%K Period",
+		"dPeriod": "%D Period",
+		"period": "Период",
+		"lastUpdate": "Последнее обновление",
+		"rsiIndicator": "RSI",
+		"macdIndicator": "MACD",
+		"stochasticOscillator": "Stochastic Oscillator",
+		"williamsRIndicator": "Williams %R",
+		"obvIndicator": "On-Balance Volume (OBV)",
+		"vwapIndicator": "Volume Weighted Average Price (VWAP)",
+		"obv": "OBV",
+		"vwap": "VWAP",
+		"selectTickerAndDateRange": "Выберите тикер и диапазон дат для просмотра данных."
+	},
+	"broker": {
+		"timeMoscow": "Время (Москва):",
+		"connection": "подключение:",
+		"connect": "Подключить",
+		"disconnect": "Отключить"
+	},
+	"strategies": {
+		"backtest": "Тестирование стратегий с риск-менеджментом",
+		"ticker": "Акция",
+		"startDate": "Начальная дата",
+		"endDate": "Конечная дата",
+		"stopLossMethod": "Метод Stop Loss",
+		"takeProfitMethod": "Метод Take Profit",
+		"capital": "Капитал",
+		"riskPercent": "Уровень риска %",
+		"runBacktest": "Запустить тестирование",
+		"backtestResults": "Результаты тестирования",
+		"performanceSummary": "Сводка результатов",
+		"balanceHistory": "Изменения баланса",
+		"tradesHistory": "История сделок",
+		"runningBacktest": "Запуск тестирования..."
+	}
+}
