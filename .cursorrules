@@ -1,7 +1,0 @@
-Python style guide:
-1) when catching exceptions, use logger.exception("message"), not logger.error(str(e)).
-2) do not use mocks unless explicitly asked!
-3) ensure types are correct, e.g. def hello(name: str = None) is WRONG, def hello(name: str | None = None) is correct.
-4) use logger = logging.getLogger(__name__) when declaring a logger
-5) prefer match + case over if + elif + else
-6) using hasattr is typically a sign of bad design!
