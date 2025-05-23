@@ -278,3 +278,6 @@ report/
 
 wsl
 wsl.pub
+
+.env.prod
+.env.dev

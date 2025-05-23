@@ -290,7 +290,7 @@ def generate_analysis(request: Request) -> Response:
         if start_date:
             start_datetime = datetime.fromisoformat(start_date)
         else:
-            start_datetime = now() - timedelta(days=365)
+            start_datetime = now() - timedelta(days=730)
             
         if end_date:
             end_datetime = datetime.fromisoformat(end_date)

@@ -17,5 +17,4 @@ COPY --from=build-stage /home/app/frontend/dist /dist/
 COPY nginx/nginx-entrypoint.sh /
 RUN ["chmod", "+x", "/nginx-entrypoint.sh"]
 ENTRYPOINT ["/nginx-entrypoint.sh"]
-
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]

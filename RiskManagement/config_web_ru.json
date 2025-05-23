@@ -1,10 +1,10 @@
 {
   "TICKERS": [
     {
-      "TICKER": "SBER",
+      "TICKER": "OZON",
       "EXCHANGE": "MOEX",
-      "START_DATE": "2024-05-21",
-      "END_DATE": "2025-05-21",
+      "START_DATE": "2023-05-23",
+      "END_DATE": "2025-05-23",
       "INTERVAL": "1d",
       "CAPITAL": 1000000,
       "RISK_PERCENT": 0.02,
